@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:6446/s03quartzjdbc?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: clusteradmin
+    password: admin
+  # 配置类: QuartzProperties
+  quartz:
+    scheduler-name: clusteredScheduler # 调度程序的名字(集群名)
+    startup-delay: 3000 # 延时启动
+    wait-for-jobs-to-complete-on-shutdown: true # 应用关闭时，是否等待定时任务执行完成，默认为 false
+    overwrite-existing-jobs: true # 是否覆盖重复的Job(比较identity)
+    job-store-type: jdbc # 默认为 memory 表示内存，jdbc 表示数据库
+    jdbc:
+      initialize-schema: always # 首次运行设 always 可以创建数据库表，创建后改为 never 避免表覆盖
+    properties: # 属性: http://www.quartz-scheduler.org/documentation/2.4.0-SNAPSHOT/configuration.html
+      org:
+        quartz:
+          # JobStore 相关配置
+          jobStore:
+            # JobStore接管复用本地数据源(自管数据源类JobStoreTX在SpringBoot2.5.7+或有问题)
+            class: org.springframework.scheduling.quartz.LocalDataSourceJobStore
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            tablePrefix: QRTZ_ # 数据库表前缀
+            isClustered: true # 集群模式
+            clusterCheckinInterval: 1000
+            useProperties: false
+          threadPool:
+            threadCount: 25 # 线程池大小。默认为 10
+            threadPriority: 5 # 线程优先级
+            class: org.quartz.simpl.SimpleThreadPool # 线程池类型

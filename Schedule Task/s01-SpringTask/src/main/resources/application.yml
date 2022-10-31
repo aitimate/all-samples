@@ -1,0 +1,10 @@
+spring:
+  task:
+    # 配置类: TaskSchedulingProperties
+    scheduling:
+      thread-name-prefix: demo- # 线程池名称前缀，默认为 scheduling-
+      pool:
+        size: 10 # 线程池中预实例化线程数量，默认为 1
+      shutdown:
+        await-termination: true # 应用关闭时，是否等待定时任务执行完成，默认为 false
+        await-termination-period: 60 # 等待最大时长，单位:秒，默认为 0
