@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/s02-QuartzMemory/pom.xml" />
         <option value="$PROJECT_DIR$/s01-SpringTask/pom.xml" />
         <option value="$PROJECT_DIR$/s03-QuartzJdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/s04-xxl-job-xexcutor/pom.xml" />
       </list>
     </option>
   </component>

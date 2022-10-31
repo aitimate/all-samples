@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/s01-SpringTask/s01-SpringTask.iml" filepath="$PROJECT_DIR$/s01-SpringTask/s01-SpringTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/s02-QuartzMemory/s02-QuartzMemory.iml" filepath="$PROJECT_DIR$/s02-QuartzMemory/s02-QuartzMemory.iml" />
       <module fileurl="file://$PROJECT_DIR$/s03-QuartzJdbc/s03-QuartzJdbc.iml" filepath="$PROJECT_DIR$/s03-QuartzJdbc/s03-QuartzJdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s04-xxl-job-xexcutor/s04-xxl-job-xexcutor.iml" filepath="$PROJECT_DIR$/s04-xxl-job-xexcutor/s04-xxl-job-xexcutor.iml" />
     </modules>
   </component>
 </project>

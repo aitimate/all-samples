@@ -1,0 +1,385 @@
+2022-11-01 01:31:07,033 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 55] Starting S04XxlJobXexcutorApplication using Java 18.0.2 on DESKTOP-MTL101 with PID 21712 (D:\Programs\all-samples\Schedule Task\s04-xxl-job-xexcutor\target\classes started by Administrator in D:\Programs\all-samples\Schedule Task)
+2022-11-01 01:31:07,034 INFO [main] c.e.s.S04XxlJobXexcutorApplication [SpringApplication.java : 634] No active profile set, falling back to 1 default profile: "default"
+2022-11-01 01:31:07,573 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8081 (http)
+2022-11-01 01:31:07,578 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2022-11-01 01:31:07,579 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-11-01 01:31:07,579 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 01:31:07,680 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-11-01 01:31:07,680 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 292] Root WebApplicationContext: initialization completed in 542 ms
+2022-11-01 01:31:07,867 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 183] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@59c04bee[class com.example.s04xxljobxexcutor.task.DemoJob#job1]
+2022-11-01 01:31:07,897 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2022-11-01 01:31:07,899 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java : 591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-11-01 01:31:07,899 INFO [main] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 117] >>>>>>>>>>> xxl-job remoting server destroy success.
+2022-11-01 01:31:07,900 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2022-11-01 01:31:07,900 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 98] >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2022-11-01 01:31:07,900 INFO [Thread-3] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 128] >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2022-11-01 01:31:07,901 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pausing ProtocolHandler ["http-nio-8081"]
+2022-11-01 01:31:07,901 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+2022-11-01 01:31:07,904 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Stopping ProtocolHandler ["http-nio-8081"]
+2022-11-01 01:31:07,904 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Destroying ProtocolHandler ["http-nio-8081"]
+2022-11-01 01:31:07,908 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-01 01:31:07,919 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java : 40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-11-01 01:31:48,974 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 55] Starting S04XxlJobXexcutorApplication using Java 18.0.2 on DESKTOP-MTL101 with PID 20980 (D:\Programs\all-samples\Schedule Task\s04-xxl-job-xexcutor\target\classes started by Administrator in D:\Programs\all-samples\Schedule Task)
+2022-11-01 01:31:48,976 INFO [main] c.e.s.S04XxlJobXexcutorApplication [SpringApplication.java : 634] No active profile set, falling back to 1 default profile: "default"
+2022-11-01 01:31:49,386 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 183] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4088741b[class com.example.s04xxljobxexcutor.task.DemoJob#job1]
+2022-11-01 01:31:49,415 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 61] Started S04XxlJobXexcutorApplication in 0.634 seconds (JVM running for 1.271)
+2022-11-01 01:31:49,419 INFO [SpringApplicationShutdownHook] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 117] >>>>>>>>>>> xxl-job remoting server destroy success.
+2022-11-01 01:31:49,420 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2022-11-01 01:31:49,420 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 98] >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2022-11-01 01:31:49,420 INFO [Thread-3] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 128] >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2022-11-01 01:35:31,671 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 55] Starting S04XxlJobXexcutorApplication using Java 18.0.2 on DESKTOP-MTL101 with PID 20872 (D:\Programs\all-samples\Schedule Task\s04-xxl-job-xexcutor\target\classes started by Administrator in D:\Programs\all-samples\Schedule Task)
+2022-11-01 01:35:31,673 INFO [main] c.e.s.S04XxlJobXexcutorApplication [SpringApplication.java : 634] No active profile set, falling back to 1 default profile: "default"
+2022-11-01 01:35:32,081 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 183] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@7c2b58c0[class com.example.s04xxljobxexcutor.task.DemoJob#job1]
+2022-11-01 01:35:32,111 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 61] Started S04XxlJobXexcutorApplication in 0.625 seconds (JVM running for 1.252)
+2022-11-01 01:35:32,115 INFO [SpringApplicationShutdownHook] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 117] >>>>>>>>>>> xxl-job remoting server destroy success.
+2022-11-01 01:35:32,115 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2022-11-01 01:35:32,115 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 98] >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2022-11-01 01:35:32,115 INFO [Thread-3] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 128] >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2022-11-01 01:37:50,091 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 55] Starting S04XxlJobXexcutorApplication using Java 18.0.2 on DESKTOP-MTL101 with PID 21416 (D:\Programs\all-samples\Schedule Task\s04-xxl-job-xexcutor\target\classes started by Administrator in D:\Programs\all-samples\Schedule Task)
+2022-11-01 01:37:50,093 INFO [main] c.e.s.S04XxlJobXexcutorApplication [SpringApplication.java : 634] No active profile set, falling back to 1 default profile: "default"
+2022-11-01 01:37:50,505 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 183] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@31ff6309[class com.example.s04xxljobxexcutor.task.DemoJob#job1]
+2022-11-01 01:37:50,535 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 61] Started S04XxlJobXexcutorApplication in 0.64 seconds (JVM running for 1.3)
+2022-11-01 01:37:50,729 INFO [Thread-4] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 82] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 12301
+2022-11-01 01:39:18,057 INFO [xxl-job, EmbedServer bizThreadPool-196375009] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 246] >>>>>>>>>>> xxl-job regist JobThread success, jobId:2, handler:com.xxl.job.core.handler.impl.MethodJobHandler@31ff6309[class com.example.s04xxljobxexcutor.task.DemoJob#job1]
+2022-11-01 01:39:18,060 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 1 次执行
+2022-11-01 01:39:21,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 2 次执行
+2022-11-01 01:39:24,010 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 3 次执行
+2022-11-01 01:39:27,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 4 次执行
+2022-11-01 01:39:30,012 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 5 次执行
+2022-11-01 01:39:33,025 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 6 次执行
+2022-11-01 01:39:36,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 7 次执行
+2022-11-01 01:39:39,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 8 次执行
+2022-11-01 01:39:42,012 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 9 次执行
+2022-11-01 01:39:45,013 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 10 次执行
+2022-11-01 01:39:48,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 11 次执行
+2022-11-01 01:39:51,010 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 12 次执行
+2022-11-01 01:39:54,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 13 次执行
+2022-11-01 01:39:57,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 14 次执行
+2022-11-01 01:40:00,014 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 15 次执行
+2022-11-01 01:40:03,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 16 次执行
+2022-11-01 01:40:06,010 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 17 次执行
+2022-11-01 01:40:09,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 18 次执行
+2022-11-01 01:40:12,010 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 19 次执行
+2022-11-01 01:40:15,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 20 次执行
+2022-11-01 01:40:18,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 21 次执行
+2022-11-01 01:40:21,014 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 22 次执行
+2022-11-01 01:40:24,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 23 次执行
+2022-11-01 01:40:27,012 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 24 次执行
+2022-11-01 01:40:30,011 INFO [xxl-job, JobThread-2-1667237958057] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 25 次执行
+2022-11-01 01:40:32,458 INFO [Thread-4] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 91] >>>>>>>>>>> xxl-job remoting server stop.
+2022-11-01 01:40:32,460 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 87] >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='s04-xxl-job-executor', registryValue='http://127.0.0.1:12301/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2022-11-01 01:40:32,460 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 105] >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2022-11-01 01:40:32,460 INFO [SpringApplicationShutdownHook] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 117] >>>>>>>>>>> xxl-job remoting server destroy success.
+2022-11-01 01:40:32,462 INFO [xxl-job, JobThread-2-1667237958057] com.xxl.job.core.thread.JobThread [JobThread.java : 250] >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-2-1667237958057,10,main]
+2022-11-01 01:40:32,462 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2022-11-01 01:40:32,462 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 98] >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2022-11-01 01:40:32,462 INFO [Thread-3] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 128] >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2022-11-01 01:41:57,623 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 55] Starting S04XxlJobXexcutorApplication using Java 18.0.2 on DESKTOP-MTL101 with PID 21768 (D:\Programs\all-samples\Schedule Task\s04-xxl-job-xexcutor\target\classes started by Administrator in D:\Programs\all-samples\Schedule Task)
+2022-11-01 01:41:57,625 INFO [main] c.e.s.S04XxlJobXexcutorApplication [SpringApplication.java : 634] No active profile set, falling back to 1 default profile: "default"
+2022-11-01 01:41:58,028 INFO [main] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 183] >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@760cf594[class com.example.s04xxljobxexcutor.task.DemoJob#job1]
+2022-11-01 01:41:58,057 INFO [main] c.e.s.S04XxlJobXexcutorApplication [StartupInfoLogger.java : 61] Started S04XxlJobXexcutorApplication in 0.619 seconds (JVM running for 1.255)
+2022-11-01 01:41:58,246 INFO [Thread-4] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 82] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 12301
+2022-11-01 01:42:27,048 INFO [xxl-job, EmbedServer bizThreadPool-1462337413] c.x.job.core.executor.XxlJobExecutor [XxlJobExecutor.java : 246] >>>>>>>>>>> xxl-job regist JobThread success, jobId:2, handler:com.xxl.job.core.handler.impl.MethodJobHandler@760cf594[class com.example.s04xxljobxexcutor.task.DemoJob#job1]
+2022-11-01 01:42:27,050 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 1 次执行
+2022-11-01 01:42:30,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 2 次执行
+2022-11-01 01:42:33,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 3 次执行
+2022-11-01 01:42:36,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 4 次执行
+2022-11-01 01:42:39,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 5 次执行
+2022-11-01 01:42:42,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 6 次执行
+2022-11-01 01:42:45,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 7 次执行
+2022-11-01 01:42:48,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 8 次执行
+2022-11-01 01:42:51,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 9 次执行
+2022-11-01 01:42:54,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 10 次执行
+2022-11-01 01:42:57,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 11 次执行
+2022-11-01 01:43:00,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 12 次执行
+2022-11-01 01:43:03,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 13 次执行
+2022-11-01 01:43:06,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 14 次执行
+2022-11-01 01:43:09,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 15 次执行
+2022-11-01 01:43:12,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 16 次执行
+2022-11-01 01:43:15,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 17 次执行
+2022-11-01 01:43:18,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 18 次执行
+2022-11-01 01:43:21,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 19 次执行
+2022-11-01 01:43:24,021 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 20 次执行
+2022-11-01 01:43:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 21 次执行
+2022-11-01 01:43:30,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 22 次执行
+2022-11-01 01:43:33,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 23 次执行
+2022-11-01 01:43:36,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 24 次执行
+2022-11-01 01:43:39,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 25 次执行
+2022-11-01 01:43:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 26 次执行
+2022-11-01 01:43:45,015 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 27 次执行
+2022-11-01 01:43:48,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 28 次执行
+2022-11-01 01:43:51,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 29 次执行
+2022-11-01 01:43:54,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 30 次执行
+2022-11-01 01:43:57,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 31 次执行
+2022-11-01 01:44:00,018 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 32 次执行
+2022-11-01 01:44:03,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 33 次执行
+2022-11-01 01:44:06,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 34 次执行
+2022-11-01 01:44:09,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 35 次执行
+2022-11-01 01:44:12,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 36 次执行
+2022-11-01 01:44:15,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 37 次执行
+2022-11-01 01:44:18,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 38 次执行
+2022-11-01 01:44:21,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 39 次执行
+2022-11-01 01:44:24,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 40 次执行
+2022-11-01 01:44:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 41 次执行
+2022-11-01 01:44:30,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 42 次执行
+2022-11-01 01:44:33,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 43 次执行
+2022-11-01 01:44:36,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 44 次执行
+2022-11-01 01:44:39,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 45 次执行
+2022-11-01 01:44:42,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 46 次执行
+2022-11-01 01:44:45,021 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 47 次执行
+2022-11-01 01:44:48,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 48 次执行
+2022-11-01 01:44:51,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 49 次执行
+2022-11-01 01:44:54,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 50 次执行
+2022-11-01 01:44:57,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 51 次执行
+2022-11-01 01:45:00,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 52 次执行
+2022-11-01 01:45:03,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 53 次执行
+2022-11-01 01:45:06,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 54 次执行
+2022-11-01 01:45:09,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 55 次执行
+2022-11-01 01:45:12,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 56 次执行
+2022-11-01 01:45:15,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 57 次执行
+2022-11-01 01:45:18,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 58 次执行
+2022-11-01 01:45:21,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 59 次执行
+2022-11-01 01:45:24,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 60 次执行
+2022-11-01 01:45:27,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 61 次执行
+2022-11-01 01:45:30,016 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 62 次执行
+2022-11-01 01:45:33,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 63 次执行
+2022-11-01 01:45:36,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 64 次执行
+2022-11-01 01:45:39,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 65 次执行
+2022-11-01 01:45:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 66 次执行
+2022-11-01 01:45:45,021 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 67 次执行
+2022-11-01 01:45:48,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 68 次执行
+2022-11-01 01:45:51,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 69 次执行
+2022-11-01 01:45:54,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 70 次执行
+2022-11-01 01:45:57,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 71 次执行
+2022-11-01 01:46:00,014 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 72 次执行
+2022-11-01 01:46:03,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 73 次执行
+2022-11-01 01:46:06,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 74 次执行
+2022-11-01 01:46:09,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 75 次执行
+2022-11-01 01:46:12,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 76 次执行
+2022-11-01 01:46:15,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 77 次执行
+2022-11-01 01:46:18,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 78 次执行
+2022-11-01 01:46:21,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 79 次执行
+2022-11-01 01:46:24,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 80 次执行
+2022-11-01 01:46:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 81 次执行
+2022-11-01 01:46:30,019 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 82 次执行
+2022-11-01 01:46:33,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 83 次执行
+2022-11-01 01:46:36,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 84 次执行
+2022-11-01 01:46:39,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 85 次执行
+2022-11-01 01:46:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 86 次执行
+2022-11-01 01:46:45,014 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 87 次执行
+2022-11-01 01:46:48,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 88 次执行
+2022-11-01 01:46:51,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 89 次执行
+2022-11-01 01:46:54,018 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 90 次执行
+2022-11-01 01:46:57,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 91 次执行
+2022-11-01 01:47:00,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 92 次执行
+2022-11-01 01:47:03,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 93 次执行
+2022-11-01 01:47:06,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 94 次执行
+2022-11-01 01:47:09,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 95 次执行
+2022-11-01 01:47:12,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 96 次执行
+2022-11-01 01:47:15,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 97 次执行
+2022-11-01 01:47:18,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 98 次执行
+2022-11-01 01:47:21,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 99 次执行
+2022-11-01 01:47:24,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 100 次执行
+2022-11-01 01:47:27,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 101 次执行
+2022-11-01 01:47:30,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 102 次执行
+2022-11-01 01:47:33,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 103 次执行
+2022-11-01 01:47:36,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 104 次执行
+2022-11-01 01:47:39,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 105 次执行
+2022-11-01 01:47:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 106 次执行
+2022-11-01 01:47:45,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 107 次执行
+2022-11-01 01:47:48,014 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 108 次执行
+2022-11-01 01:47:51,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 109 次执行
+2022-11-01 01:47:54,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 110 次执行
+2022-11-01 01:47:57,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 111 次执行
+2022-11-01 01:48:00,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 112 次执行
+2022-11-01 01:48:03,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 113 次执行
+2022-11-01 01:48:06,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 114 次执行
+2022-11-01 01:48:09,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 115 次执行
+2022-11-01 01:48:12,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 116 次执行
+2022-11-01 01:48:15,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 117 次执行
+2022-11-01 01:48:18,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 118 次执行
+2022-11-01 01:48:21,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 119 次执行
+2022-11-01 01:48:24,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 120 次执行
+2022-11-01 01:48:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 121 次执行
+2022-11-01 01:48:30,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 122 次执行
+2022-11-01 01:48:33,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 123 次执行
+2022-11-01 01:48:36,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 124 次执行
+2022-11-01 01:48:39,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 125 次执行
+2022-11-01 01:48:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 126 次执行
+2022-11-01 01:48:45,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 127 次执行
+2022-11-01 01:48:48,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 128 次执行
+2022-11-01 01:48:51,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 129 次执行
+2022-11-01 01:48:54,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 130 次执行
+2022-11-01 01:48:57,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 131 次执行
+2022-11-01 01:49:00,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 132 次执行
+2022-11-01 01:49:03,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 133 次执行
+2022-11-01 01:49:06,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 134 次执行
+2022-11-01 01:49:09,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 135 次执行
+2022-11-01 01:49:12,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 136 次执行
+2022-11-01 01:49:15,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 137 次执行
+2022-11-01 01:49:18,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 138 次执行
+2022-11-01 01:49:21,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 139 次执行
+2022-11-01 01:49:24,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 140 次执行
+2022-11-01 01:49:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 141 次执行
+2022-11-01 01:49:30,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 142 次执行
+2022-11-01 01:49:33,021 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 143 次执行
+2022-11-01 01:49:36,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 144 次执行
+2022-11-01 01:49:39,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 145 次执行
+2022-11-01 01:49:42,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 146 次执行
+2022-11-01 01:49:45,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 147 次执行
+2022-11-01 01:49:48,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 148 次执行
+2022-11-01 01:49:51,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 149 次执行
+2022-11-01 01:49:54,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 150 次执行
+2022-11-01 01:49:57,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 151 次执行
+2022-11-01 01:50:00,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 152 次执行
+2022-11-01 01:50:03,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 153 次执行
+2022-11-01 01:50:06,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 154 次执行
+2022-11-01 01:50:09,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 155 次执行
+2022-11-01 01:50:12,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 156 次执行
+2022-11-01 01:50:15,014 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 157 次执行
+2022-11-01 01:50:18,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 158 次执行
+2022-11-01 01:50:21,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 159 次执行
+2022-11-01 01:50:24,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 160 次执行
+2022-11-01 01:50:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 161 次执行
+2022-11-01 01:50:30,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 162 次执行
+2022-11-01 01:50:33,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 163 次执行
+2022-11-01 01:50:36,015 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 164 次执行
+2022-11-01 01:50:39,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 165 次执行
+2022-11-01 01:50:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 166 次执行
+2022-11-01 01:50:45,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 167 次执行
+2022-11-01 01:50:48,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 168 次执行
+2022-11-01 01:50:51,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 169 次执行
+2022-11-01 01:50:54,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 170 次执行
+2022-11-01 01:50:57,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 171 次执行
+2022-11-01 01:51:00,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 172 次执行
+2022-11-01 01:51:03,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 173 次执行
+2022-11-01 01:51:06,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 174 次执行
+2022-11-01 01:51:09,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 175 次执行
+2022-11-01 01:51:12,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 176 次执行
+2022-11-01 01:51:15,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 177 次执行
+2022-11-01 01:51:18,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 178 次执行
+2022-11-01 01:51:21,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 179 次执行
+2022-11-01 01:51:24,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 180 次执行
+2022-11-01 01:51:27,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 181 次执行
+2022-11-01 01:51:30,016 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 182 次执行
+2022-11-01 01:51:33,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 183 次执行
+2022-11-01 01:51:36,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 184 次执行
+2022-11-01 01:51:39,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 185 次执行
+2022-11-01 01:51:42,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 186 次执行
+2022-11-01 01:51:45,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 187 次执行
+2022-11-01 01:51:48,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 188 次执行
+2022-11-01 01:51:51,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 189 次执行
+2022-11-01 01:51:54,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 190 次执行
+2022-11-01 01:51:57,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 191 次执行
+2022-11-01 01:52:00,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 192 次执行
+2022-11-01 01:52:03,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 193 次执行
+2022-11-01 01:52:06,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 194 次执行
+2022-11-01 01:52:09,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 195 次执行
+2022-11-01 01:52:12,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 196 次执行
+2022-11-01 01:52:15,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 197 次执行
+2022-11-01 01:52:18,023 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 198 次执行
+2022-11-01 01:52:21,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 199 次执行
+2022-11-01 01:52:24,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 200 次执行
+2022-11-01 01:52:27,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 201 次执行
+2022-11-01 01:52:30,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 202 次执行
+2022-11-01 01:52:33,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 203 次执行
+2022-11-01 01:52:36,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 204 次执行
+2022-11-01 01:52:39,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 205 次执行
+2022-11-01 01:52:42,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 206 次执行
+2022-11-01 01:52:45,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 207 次执行
+2022-11-01 01:52:48,024 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 208 次执行
+2022-11-01 01:52:51,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 209 次执行
+2022-11-01 01:52:54,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 210 次执行
+2022-11-01 01:52:57,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 211 次执行
+2022-11-01 01:53:00,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 212 次执行
+2022-11-01 01:53:03,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 213 次执行
+2022-11-01 01:53:06,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 214 次执行
+2022-11-01 01:53:09,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 215 次执行
+2022-11-01 01:53:12,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 216 次执行
+2022-11-01 01:53:15,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 217 次执行
+2022-11-01 01:53:18,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 218 次执行
+2022-11-01 01:53:21,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 219 次执行
+2022-11-01 01:53:24,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 220 次执行
+2022-11-01 01:53:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 221 次执行
+2022-11-01 01:53:30,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 222 次执行
+2022-11-01 01:53:33,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 223 次执行
+2022-11-01 01:53:36,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 224 次执行
+2022-11-01 01:53:39,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 225 次执行
+2022-11-01 01:53:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 226 次执行
+2022-11-01 01:53:45,014 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 227 次执行
+2022-11-01 01:53:48,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 228 次执行
+2022-11-01 01:53:51,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 229 次执行
+2022-11-01 01:53:54,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 230 次执行
+2022-11-01 01:53:57,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 231 次执行
+2022-11-01 01:54:00,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 232 次执行
+2022-11-01 01:54:03,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 233 次执行
+2022-11-01 01:54:06,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 234 次执行
+2022-11-01 01:54:09,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 235 次执行
+2022-11-01 01:54:12,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 236 次执行
+2022-11-01 01:54:15,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 237 次执行
+2022-11-01 01:54:18,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 238 次执行
+2022-11-01 01:54:21,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 239 次执行
+2022-11-01 01:54:24,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 240 次执行
+2022-11-01 01:54:27,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 241 次执行
+2022-11-01 01:54:30,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 242 次执行
+2022-11-01 01:54:33,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 243 次执行
+2022-11-01 01:54:36,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 244 次执行
+2022-11-01 01:54:39,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 245 次执行
+2022-11-01 01:54:42,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 246 次执行
+2022-11-01 01:54:45,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 247 次执行
+2022-11-01 01:54:48,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 248 次执行
+2022-11-01 01:54:51,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 249 次执行
+2022-11-01 01:54:54,016 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 250 次执行
+2022-11-01 01:54:57,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 251 次执行
+2022-11-01 01:55:00,023 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 252 次执行
+2022-11-01 01:55:03,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 253 次执行
+2022-11-01 01:55:06,013 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 254 次执行
+2022-11-01 01:55:09,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 255 次执行
+2022-11-01 01:55:12,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 256 次执行
+2022-11-01 01:55:15,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 257 次执行
+2022-11-01 01:55:18,019 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 258 次执行
+2022-11-01 01:55:21,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 259 次执行
+2022-11-01 01:55:24,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 260 次执行
+2022-11-01 01:55:27,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 261 次执行
+2022-11-01 01:55:30,016 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 262 次执行
+2022-11-01 01:55:33,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 263 次执行
+2022-11-01 01:55:36,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 264 次执行
+2022-11-01 01:55:39,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 265 次执行
+2022-11-01 01:55:42,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 266 次执行
+2022-11-01 01:55:45,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 267 次执行
+2022-11-01 01:55:48,012 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 268 次执行
+2022-11-01 01:55:51,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 269 次执行
+2022-11-01 01:55:54,018 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 270 次执行
+2022-11-01 01:55:57,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 271 次执行
+2022-11-01 01:56:00,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 272 次执行
+2022-11-01 01:56:03,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 273 次执行
+2022-11-01 01:56:06,008 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 274 次执行
+2022-11-01 01:56:09,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 275 次执行
+2022-11-01 01:56:12,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 276 次执行
+2022-11-01 01:56:15,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 277 次执行
+2022-11-01 01:56:18,011 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 278 次执行
+2022-11-01 01:56:21,010 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 279 次执行
+2022-11-01 01:56:24,009 INFO [xxl-job, JobThread-2-1667238147048] c.e.s04xxljobxexcutor.task.DemoJob [DemoJob.java : 19] [executeInternal]定时任务第 280 次执行
+2022-11-01 01:56:25,981 INFO [Thread-4] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 91] >>>>>>>>>>> xxl-job remoting server stop.
+2022-11-01 01:56:25,983 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 87] >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='s04-xxl-job-executor', registryValue='http://127.0.0.1:12301/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2022-11-01 01:56:25,983 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 105] >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2022-11-01 01:56:25,983 INFO [SpringApplicationShutdownHook] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 117] >>>>>>>>>>> xxl-job remoting server destroy success.
+2022-11-01 01:56:25,984 INFO [xxl-job, JobThread-2-1667238147048] com.xxl.job.core.thread.JobThread [JobThread.java : 250] >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-2-1667238147048,10,main]
+2022-11-01 01:56:25,984 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2022-11-01 01:56:25,985 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 98] >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2022-11-01 01:56:25,985 INFO [Thread-3] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 128] >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
