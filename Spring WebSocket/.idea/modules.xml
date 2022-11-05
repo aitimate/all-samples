@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring WebSocket.iml" filepath="$PROJECT_DIR$/.idea/Spring WebSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s01-tomcat-websocket/s01-tomcat-websocket.iml" filepath="$PROJECT_DIR$/s01-tomcat-websocket/s01-tomcat-websocket.iml" />
+    </modules>
+  </component>
+</project>
