@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Elasticsearch.iml" filepath="$PROJECT_DIR$/.idea/Elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s01-es-7-17-6/s01-es-7-17-6.iml" filepath="$PROJECT_DIR$/s01-es-7-17-6/s01-es-7-17-6.iml" />
+    </modules>
+  </component>
+</project>
