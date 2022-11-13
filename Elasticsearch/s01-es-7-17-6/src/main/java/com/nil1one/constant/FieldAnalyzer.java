@@ -16,4 +16,9 @@ public class FieldAnalyzer {
      */
     public static final String IK_SMART = "ik_smart";
 
+    /**
+     * 标准分词器
+     * */
+    public static final String STANDARD = "standard";
+
 }
