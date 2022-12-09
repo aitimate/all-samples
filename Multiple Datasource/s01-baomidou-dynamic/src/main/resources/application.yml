@@ -1,0 +1,16 @@
+ds-properties: allowMultiQueries=true&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&nullCatalogMeansCurrent=true
+spring:
+  datasource:
+    dynamic:
+      primary: db1 # 设置默认的数据源，默认值即为 master
+      datasource:
+        db1:
+          url: jdbc:mysql://127.0.0.1:6446/db1?${ds-properties}
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          username: clusteradmin
+          password: admin
+        db2:
+          url: jdbc:mysql://127.0.0.1:6446/db2?${ds-properties}
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          username: clusteradmin
+          password: admin
