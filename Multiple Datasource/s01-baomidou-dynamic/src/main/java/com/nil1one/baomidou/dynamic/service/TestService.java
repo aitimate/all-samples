@@ -23,10 +23,11 @@ public class TestService {
 
     /**
      * 作用: 注入当前对象的代理对象
-     * 前提: 开启AOP代理并暴露: `@EnableAspectJAutoProxy(exposeProxy = true)`
-     * 用法: proxy.saveOrder()，等价于 (TestService)AopContext.currentProxy().saveOrder()
+     * 用法: proxy.saveOrder()
+     * 等价: `@EnableAspectJAutoProxy(exposeProxy = true)` + `(TestService)AopContext.currentProxy().saveOrder()`
      * *
-     * 说明: 为什么不用 this？ 因为只有通过代理对象调用才有事务，直接使用this会指向原生对象而非代理
+     * 说明: 为什么不直接用 this 访问？
+     * 因为只有通过代理对象调用事务才生效(AOP代理)，直接使用this会指向原生对象而非代理
      * */
     @Resource
     @Lazy
