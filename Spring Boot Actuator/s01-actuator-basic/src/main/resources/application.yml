@@ -1,0 +1,27 @@
+management:
+  endpoints:
+    # Actuator HTTP 配置类: WebEndpointProperties
+    web:
+      base-path: /actuator # Actuator 提供的 API 接口的根目录，默认为 /actuator
+      exposure:
+        include: '*' # 需要开放的端点，默认值只打开 health 和 info ，设置 * 开放所有端点
+        # exclude: 	 # 需要排除的端点
+  endpoint:
+    health:
+      enabled: true # 是否开启health端点，默认开启
+      show-details: ALWAYS # 是否展示详细信息，默认为 NEVER 不展示，WHEN_AUTHORIZED 仅向授权用户展示，ALWAYS 总是展示
+    info:
+      enabled: true # 是否开启info端点，默认开启
+  info:
+    env:
+      enabled: true # 开启环境信息的供给::EnvironmentInfoContributor -> info
+  health:
+    diskspace:
+      threshold: 1048576
+info:
+  # 读取应用信息
+  app:
+    version: @project.version@
+  # 读取JVM信息
+  jvm:
+    version: @java.version@

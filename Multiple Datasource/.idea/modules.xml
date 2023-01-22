@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Multiple Datasource.iml" filepath="$PROJECT_DIR$/.idea/Multiple Datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s01-baomidou-dynamic/s01-baomidou-dynamic.iml" filepath="$PROJECT_DIR$/s01-baomidou-dynamic/s01-baomidou-dynamic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s02-sharding-jdbc-rwspliting/s02-sharding-jdbc-rwspliting.iml" filepath="$PROJECT_DIR$/s02-sharding-jdbc-rwspliting/s02-sharding-jdbc-rwspliting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s03-sharding-jdbc-vertical/s03-sharding-jdbc-vertical.iml" filepath="$PROJECT_DIR$/s03-sharding-jdbc-vertical/s03-sharding-jdbc-vertical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s04-sharding-jdbc-horizontal-database/s04-sharding-jdbc-horizontal-database.iml" filepath="$PROJECT_DIR$/s04-sharding-jdbc-horizontal-database/s04-sharding-jdbc-horizontal-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s05-sharding-jdbc-horizontal-table/s05-sharding-jdbc-horizontal-table.iml" filepath="$PROJECT_DIR$/s05-sharding-jdbc-horizontal-table/s05-sharding-jdbc-horizontal-table.iml" />
+    </modules>
+  </component>
+</project>

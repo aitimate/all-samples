@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/s01-baomidou-dynamic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s01-baomidou-dynamic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s02-sharding-jdbc-rwspliting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s02-sharding-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s03-sharding-jdbc-vertical/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s03-sharding-jdbc-vertical/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s04-sharding-jdbc-horizontal-database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s04-sharding-jdbc-horizontal-table/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s04-sharding-jdbc-horizontal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s04-sharding-jdbc-horizontal/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s05-sharding-jdbc-horizontal-table/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

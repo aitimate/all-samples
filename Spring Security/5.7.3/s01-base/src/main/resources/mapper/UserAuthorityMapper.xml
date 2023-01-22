@@ -7,10 +7,10 @@
     <resultMap id="BaseResultMap" type="com.nil.one.entity.UserAuthority">
             <id property="id" column="id" jdbcType="INTEGER"/>
             <result property="uid" column="uid" jdbcType="INTEGER"/>
-            <result property="value" column="value" jdbcType="VARCHAR"/>
+            <result property="authority" column="authority" jdbcType="VARCHAR"/>
     </resultMap>
 
     <sql id="Base_Column_List">
-        id,uid,value
+        id,uid,authority
     </sql>
 </mapper>
