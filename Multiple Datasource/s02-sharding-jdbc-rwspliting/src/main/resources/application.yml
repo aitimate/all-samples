@@ -1,0 +1,48 @@
+ds-properties: allowMultiQueries=true&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&nullCatalogMeansCurrent=true
+spring:
+  shardingsphere:
+    props: # https://shardingsphere.apache.org/document/5.1.0/cn/user-manual/shardingsphere-jdbc/props/
+      # 开启控制台打印sql
+      sql-show: true
+    mode:
+      type: Standalone
+    datasource:
+      names: master,slave1,slave2
+      master:
+        type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/db2?${ds-properties}
+        username: clusteradmin
+        password: admin
+      slave1:
+        type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3307/db2?${ds-properties}
+        username: clusteradmin
+        password: admin
+      slave2:
+        type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3308/db2?${ds-properties}
+        username: clusteradmin
+        password: admin
+    rules:
+      # 读写分离，配置源的类型: Static(配置文件),Dynamic(集群同步)
+      readwrite-splitting:
+        data-sources:
+          my-ds:
+            static_strategy:
+              write-data-source-name: master # 写操作数据源
+              read-data-source-names: slave1,slave2 # 读操作数据源
+            load-balancer-name: alg-weight # 指定从节点的负载均衡算法
+        # 定义从节点的负载均衡算法: 轮转、随机、权重
+        load-balancers:
+          alg-round:
+            type: ROUND_ROBIN
+          alg-random:
+            type: RANDOM
+          alg-weight:
+            type: WEIGHT
+            props:
+              slave1: 1
+              slave2: 2

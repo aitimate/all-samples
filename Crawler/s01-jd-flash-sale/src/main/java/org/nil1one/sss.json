@@ -1,0 +1,827 @@
+{
+  "extendWarrantyInfo": {
+    "descUrl": "https://baozhang.jd.com/static/serviceDesc",
+    "detailUrl": "https://b.jr.jd.com/service/serveIntroduce/#/introduce3?mainSkuId={mainSkuId}&brandId={brandId}&thirdCategoryId={cid3}&bindSkuId={bindSku}",
+    "serviceItems": []
+  },
+  "rankUnited": {
+    "revertItem": {
+      "id": "100012043978",
+      "jump": "https://h5.m.jd.com/babelDiy/Zeus/2kuDDsNmnkdsxbv8sLoZhHWtqh5Z/index.html?contentId=24207&rankType=13&fromName=Productdetail&sku=100012043978",
+      "jumpTypeInt": 2,
+      "name": "入选年度『白酒金榜』TOP20",
+      "rankId": "24207",
+      "rankTypeInt": 13
+    }
+  },
+  "hasPlusBalance": false,
+  "promiseFxgInfo": {
+    "fxgCode": "0",
+    "oldTsfwCodes": "s49,"
+  },
+  "beltBanner": "//img30.360buyimg.com/jdg/jfs/t1/104376/40/20001/3320/63a116e5Effd814e2/7e3cf07f5127e906.png",
+  "hasWarranty": false,
+  "isInstallNow": false,
+  "yuyueInfo": {
+    "bannerUrl": "//img30.360buyimg.com/jdg/jfs/t1/104376/40/20001/3320/63a116e5Effd814e2/7e3cf07f5127e906.png",
+    "btnText": "等待预约",
+    "buyTime": "2023-01-02 12:00-2023-01-02 12:30",
+    "cdPrefix": "距预约还需",
+    "countdown": 48492,
+    "hidePrice": 0,
+    "hideText": "",
+    "num": 0,
+    "plusText": "",
+    "plusType": 0,
+    "sellWhilePresell": "0",
+    "showDraw": false,
+    "showPlusTime": false,
+    "showPromoPrice": 0,
+    "state": 1,
+    "supportOther": 0,
+    "type": "1",
+    "url": "",
+    "userType": "1",
+    "yuyue": true,
+    "yuyueRuleText": [
+      "1.部分商品预约成功后才有抢购资格，预约成功后，请关注抢购时间及时抢购，货源有限，先抢先得！",
+      "2.部分商品在预约期间抢购时间未定，我们会在商品开抢前通过Push通知提醒您，请在设置中选择允许通知，以免错过抢购时间。",
+      "3.对于预约成功享优惠的商品，抢购开始后，点击\"立即抢购\"将商品加入购物车，可在购物车查看优惠，若抢购时间结束，优惠自动失效。",
+      "4.查看预约商品请至\"京东APP\"-\"我的\"-\"我的预约\"进行查看。",
+      "5.如果提供赠品，赠品赠送顺序按照预约商品购买成功时间来计算，而不是预约成功时间。",
+      "6.如您对活动有任何疑问，请联系客服咨询。"
+    ],
+    "yuyueText": "预约享资格",
+    "yuyueTime": "2023-01-02 10:00~2023-01-02 11:59"
+  },
+  "price": {
+    "epp": "",
+    "hagglePromotion": false,
+    "id": "100012043978",
+    "m": "5900.00",
+    "nup": "",
+    "op": "1499.00",
+    "p": "1499.00",
+    "plusTag": {
+      "limit": false,
+      "min": 0,
+      "max": 0,
+      "overlying": false
+    },
+    "pp": "",
+    "sdp": "",
+    "sp": "",
+    "tkp": "",
+    "tpp": ""
+  },
+  "ipCityCode": "2258",
+  "shopInfo": {
+    "shopTag": {
+      "priority": 1,
+      "shopMark": "zy",
+      "tagIcon": "tab_054"
+    },
+    "shop": {
+      "avgEfficiencyScore": 0.0,
+      "avgServiceScore": 0.0,
+      "avgWareScore": 0.0,
+      "brief": "贵州茅台 华夏之光",
+      "cardType": 2,
+      "cateGoodShop": 0,
+      "diamond": false,
+      "efficiencyScore": 0.0,
+      "followCount": 14697798,
+      "followText": "关注人数",
+      "giftIcon": "",
+      "goodShop": 0,
+      "hasCoupon": false,
+      "isSquareLogo": false,
+      "logisticsText": "物流",
+      "logo": "http://img30.360buyimg.com/popshop/jfs/t10912/11/2185939961/12055/3ef4ef42/59f020caN04a8b511.jpg",
+      "name": "贵州茅台京东自营店",
+      "nameB": "贵州茅台京东自营店",
+      "newNum": 0,
+      "promotionNum": 0,
+      "promotions": [
+        {
+          "name": "限时秒杀",
+          "url": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"jumpTab\":\"activity\",\"shopId\":\"1000085463\",\"venderId\":\"1000085463\",\"shopName\":\"贵州茅台京东自营店\",\"logoUrl\":\"http://img30.360buyimg.com/popshop/jfs/t10912/11/2185939961/12055/3ef4ef42/59f020caN04a8b511.jpg\",\"signboardUrl\":\"http://img11.360buyimg.com/jshopm/jfs/t4582/243/1276225303/72362/e3af88e4/58dc96faNbc68e30a.jpg\",\"activityTabInfo\":{\"sort\":\"secKillPage\"},\"source\":{\"moduleId\":\"app-productDetail\",\"entrance\":\"商详卡片\"}}"
+        },
+        {
+          "name": "限时闪购",
+          "url": "openApp.jdMobile://virtual?params={\"category\":\"jump\",\"des\":\"jshopMain\",\"jumpTab\":\"flashPurchase\",\"shopId\":\"1000085463\",\"venderId\":\"1000085463\",\"shopName\":\"贵州茅台京东自营店\",\"logoUrl\":\"http://img30.360buyimg.com/popshop/jfs/t10912/11/2185939961/12055/3ef4ef42/59f020caN04a8b511.jpg\",\"signboardUrl\":\"http://img11.360buyimg.com/jshopm/jfs/t4582/243/1276225303/72362/e3af88e4/58dc96faNbc68e30a.jpg\",\"activityTabInfo\":{},\"source\":{\"moduleId\":\"app-productDetail\",\"entrance\":\"商详卡片\"}}"
+        }
+      ],
+      "score": 0.0,
+      "serverText": "服务",
+      "serviceScore": 0.0,
+      "shopActivityTotalNum": 0,
+      "shopId": 1000085463,
+      "shopImage": "http://img12.360buyimg.com/cms/jfs/t29248/64/1177364984/211329/11fa8f11/5cd924c2Nbf47bd2d.jpg",
+      "shopStateText": "店铺动态",
+      "signboardUrl": "http://img11.360buyimg.com/jshopm/jfs/t4582/243/1276225303/72362/e3af88e4/58dc96faNbc68e30a.jpg",
+      "skuCntText": "全部商品",
+      "skuText": "商品",
+      "telephone": "",
+      "totalNum": 439,
+      "venderType": "1",
+      "wareScore": 0.0
+    },
+    "customerService": {
+      "hasChat": false,
+      "hasJimi": false,
+      "mLink": "http://m.jd.com/product/100012043978.html",
+      "online": false
+    }
+  },
+  "nirvana": {
+    "maxSaleLabel": 10001740,
+    "maxSalesInfo": {
+      "head": "https://m.360buyimg.com/umm/jfs/t1/194148/17/31268/6647/638f0ea0Eb1bf0631/92e62de5c19db31c.png"
+    }
+  },
+  "ad": "约满即止，仅限京东实名认证用户APP端抢购，1月2日10:00开始预约，1月2日12:00开始抢购",
+  "servicesInfoUnited": {
+    "bdsSymbol": "[{\"channelList\":[{\"channelId\":29,\"channelName\":\"搜索类目平铺\"},{\"channelId\":112,\"channelName\":\"礼在京东\"}],\"symbolId\":18750,\"symbolName\":\"送长辈\"},{\"channelList\":[{\"channelId\":29,\"channelName\":\"搜索类目平铺\"}],\"symbolId\":24558,\"symbolName\":\"茅台\"},{\"channelList\":[{\"channelId\":29,\"channelName\":\"搜索类目平铺\"}],\"symbolId\":27006,\"symbolName\":\"精品白酒\"},{\"channelList\":[{\"channelId\":29,\"channelName\":\"搜索类目平铺\"}],\"symbolId\":27505,\"symbolName\":\"整箱装\"},{\"channelList\":[{\"channelId\":29,\"channelName\":\"搜索类目平铺\"}],\"symbolId\":49144,\"symbolName\":\"酱香型白酒\"},{\"channelList\":[{\"channelId\":112,\"channelName\":\"礼在京东\"}],\"symbolId\":5072,\"symbolName\":\"吃货\"},{\"channelList\":[{\"channelId\":29,\"channelName\":\"搜索类目平铺\"}],\"symbolId\":9688,\"symbolName\":\"白酒\"},{\"channelList\":[{\"channelId\":29,\"channelName\":\"搜索类目平铺\"}],\"symbolId\":9734,\"symbolName\":\"更多系列\"}]",
+    "hasWarranty": false,
+    "icon": true,
+    "isSupport": 0,
+    "promiseFxgInfo": {
+      "fxgCode": "0",
+      "oldTsfwCodes": "s49,"
+    },
+    "servIconRelations": [
+      {
+        "iconType": "exclamation",
+        "iconValue": "detail_006"
+      },
+      {
+        "iconType": "right",
+        "iconValue": "detail_008"
+      }
+    ],
+    "serviceInfo": {
+      "basic": {
+        "iconList": [
+          {
+            "code": "free_delivery_zhong",
+            "helpLink": "//help.jd.com/user/issue/103-983.html",
+            "iconType": "right",
+            "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/10/0C/rBEhWFMxH-oIAAAAAAAEs-McyP4AAKp8AP_4HYAAATL229.jpg",
+            "jdPostAndService": false,
+            "jichu": false,
+            "show": true,
+            "sortId": 7,
+            "text": "99元免基础运费",
+            "tip": "所选地址自营订单满99元免基础运费(20kg内)，超出重量加收1元/kg续重运费。"
+          },
+          {
+            "code": "service_pzsy",
+            "helpLink": "https://zsgateway.jd.com/item/sku/1308704.html",
+            "iconType": "right",
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/105005/12/14712/16360/5e69f608E17d7803b/20bad2985c2d6ea1.png",
+            "jdPostAndService": false,
+            "jichu": false,
+            "jumpUrl": "https://sy.jd.com/item/sku/100012043978.html",
+            "show": true,
+            "sortId": 7,
+            "text": "品质溯源",
+            "tip": "京东严格管控生产、运输、仓储、监管等环节，可扫描商品包装二维码、或在订单中点击“品质溯源”查看信息"
+          }
+        ],
+        "title": "服务说明"
+      }
+    },
+    "stockInfo": {
+      "deliveryInfo": {
+        "state": "SUPPORT",
+        "support": true
+      },
+      "isPlus": false,
+      "code": 1,
+      "promiseInfo": {
+        "cOD": false,
+        "exchange": false,
+        "featureService": false,
+        "gSDa": false,
+        "has211": false,
+        "iconCodeList": [
+          "service_noreturn",
+          "service_yysh",
+          "service_bfsh",
+          "service_sssm",
+          "free_delivery_zhong",
+          "service_jdwl",
+          "service_pzsy",
+          "special_ziti"
+        ],
+        "iconInfoList": [
+          {
+            "code": "service_yysh",
+            "helpLink": "//help.jd.com/user/issue/103-983.html",
+            "iconServiceType": 6,
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/116316/15/7402/1031/5ec22ca4E713f857c/dd49784b20933cf5.png",
+            "jichu": false,
+            "name": "预约送货",
+            "tip": "京东物流为该商品提供预约送货服务"
+          },
+          {
+            "code": "service_bfsh",
+            "helpLink": "https://help.jd.com/user/issue/103-983.html",
+            "iconServiceType": 6,
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/108073/34/18517/1071/5ec22ce0E11a3b1c5/f8ffea5f4cafa0f9.png",
+            "jichu": false,
+            "name": "部分收货",
+            "tip": "如果收件人收货时发现部分货物存在缺少配件、物流损等情形，京东物流提供订单半收服务"
+          },
+          {
+            "code": "service_sssm",
+            "helpLink": "https://help.jd.com/user/issue/254-4130.html",
+            "iconServiceType": 6,
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/115738/37/12143/1066/5f0c7d11E4faee520/de3879572e2b2014.png",
+            "jichu": false,
+            "name": "送货上门",
+            "tip": "京东快递为您提供送货上门服务"
+          },
+          {
+            "code": "free_delivery_zhong",
+            "helpLink": "//help.jd.com/user/issue/103-983.html",
+            "iconServiceType": 4,
+            "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/10/0C/rBEhWFMxH-oIAAAAAAAEs-McyP4AAKp8AP_4HYAAATL229.jpg",
+            "jichu": false,
+            "name": "99元免基础运费",
+            "tip": "所选地址自营订单满99元免基础运费(20kg内)，超出重量加收1元/kg续重运费。"
+          },
+          {
+            "code": "service_pzsy",
+            "helpLink": "https://zsgateway.jd.com/item/sku/1308704.html",
+            "iconServiceType": 3,
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/105005/12/14712/16360/5e69f608E17d7803b/20bad2985c2d6ea1.png",
+            "jichu": false,
+            "name": "品质溯源",
+            "tip": "京东严格管控生产、运输、仓储、监管等环节，可扫描商品包装二维码、或在订单中点击“品质溯源”查看信息",
+            "url": "https://sy.jd.com/item/sku/100012043978.html"
+          },
+          {
+            "code": "special_ziti",
+            "helpLink": "//help.jd.com/user/issue/103-983.html",
+            "iconServiceType": 5,
+            "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/01/02/rBEhWlLL0P8IAAAAAAAETM3054QAAHqzwGz1eAAAARk092.jpg",
+            "jichu": false,
+            "name": "自提",
+            "tip": "我们提供多种自提服务，包括京东自提点、自助提货柜、京东校园派、京东星配站、京东便民站等服务"
+          }
+        ],
+        "promise": "3天内调货完成，预计<b>01月04日</b>送达",
+        "relaxType": 0,
+        "resultCode": 1,
+        "selfTrustworthy": false,
+        "trustworthy": false,
+        "weight": "1.12kg",
+        "weightFareTitle": "99元免基础运费",
+        "yejianpei": false
+      },
+      "promiseResult": "",
+      "serviceInfo": "由 <span class='hl_red'>京东</span> 发货, 并提供售后服务. ",
+      "stockDesc": "<strong>有货</strong>",
+      "weightValue": "1.12kg",
+      "fxgCode": "0",
+      "is7ToReturn": "不支持7天无理由退货",
+      "stockState": 39,
+      "stockInfo": {
+        "ae": 0,
+        "ah": -1,
+        "availableNum": -1,
+        "businessType": -1,
+        "ca": -1,
+        "date": "",
+        "dcId": 6,
+        "dcIdDely": 6,
+        "ef": 0,
+        "eh": -1,
+        "ej": "-1",
+        "ek": -1,
+        "freshEdi": 0,
+        "popPatType": 1,
+        "preStore": -1,
+        "railModel": 0,
+        "reservationType": "OTHER",
+        "rid": 0,
+        "sidDely": 331,
+        "siteId4Dada": -1,
+        "stDely": 0,
+        "stockM": 0,
+        "stockState": "ON_PASSAGE",
+        "stockV": 0,
+        "storeId": 331,
+        "storeId4Dada": -1,
+        "storeState4Dada": -1,
+        "storeType": 0,
+        "useStockNum": -5593
+      },
+      "serverIcon": {
+        "relaxType": 0,
+        "wlfwIcons": [
+          {
+            "code": "service_yysh",
+            "helpLink": "//help.jd.com/user/issue/103-983.html",
+            "iconServiceType": 6,
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/116316/15/7402/1031/5ec22ca4E713f857c/dd49784b20933cf5.png",
+            "jichu": false,
+            "show": true,
+            "sortId": 0,
+            "text": "预约送货",
+            "tip": "京东物流为该商品提供预约送货服务"
+          },
+          {
+            "code": "service_bfsh",
+            "helpLink": "https://help.jd.com/user/issue/103-983.html",
+            "iconServiceType": 6,
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/108073/34/18517/1071/5ec22ce0E11a3b1c5/f8ffea5f4cafa0f9.png",
+            "jichu": false,
+            "show": true,
+            "sortId": 0,
+            "text": "部分收货",
+            "tip": "如果收件人收货时发现部分货物存在缺少配件、物流损等情形，京东物流提供订单半收服务"
+          },
+          {
+            "code": "service_sssm",
+            "helpLink": "https://help.jd.com/user/issue/254-4130.html",
+            "iconServiceType": 6,
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/115738/37/12143/1066/5f0c7d11E4faee520/de3879572e2b2014.png",
+            "jichu": false,
+            "show": true,
+            "sortId": 0,
+            "text": "送货上门",
+            "tip": "京东快递为您提供送货上门服务"
+          },
+          {
+            "code": "special_ziti",
+            "helpLink": "//help.jd.com/user/issue/103-983.html",
+            "iconServiceType": 5,
+            "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/01/02/rBEhWlLL0P8IAAAAAAAETM3054QAAHqzwGz1eAAAARk092.jpg",
+            "jichu": false,
+            "show": true,
+            "sortId": 0,
+            "text": "自提",
+            "tip": "我们提供多种自提服务，包括京东自提点、自助提货柜、京东校园派、京东星配站、京东便民站等服务"
+          }
+        ],
+        "basicIcons": [
+          {
+            "code": "free_delivery_zhong",
+            "helpLink": "//help.jd.com/user/issue/103-983.html",
+            "iconType": "right",
+            "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/10/0C/rBEhWFMxH-oIAAAAAAAEs-McyP4AAKp8AP_4HYAAATL229.jpg",
+            "jdPostAndService": false,
+            "jichu": false,
+            "show": true,
+            "sortId": 7,
+            "text": "99元免基础运费",
+            "tip": "所选地址自营订单满99元免基础运费(20kg内)，超出重量加收1元/kg续重运费。"
+          },
+          {
+            "code": "service_pzsy",
+            "helpLink": "https://zsgateway.jd.com/item/sku/1308704.html",
+            "iconType": "right",
+            "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/105005/12/14712/16360/5e69f608E17d7803b/20bad2985c2d6ea1.png",
+            "jdPostAndService": false,
+            "jichu": false,
+            "jumpUrl": "https://sy.jd.com/item/sku/100012043978.html",
+            "show": true,
+            "sortId": 7,
+            "text": "品质溯源",
+            "tip": "京东严格管控生产、运输、仓储、监管等环节，可扫描商品包装二维码、或在订单中点击“品质溯源”查看信息"
+          }
+        ]
+      },
+      "support": [],
+      "isStock": true
+    },
+    "wareExtendWarrantyInfo": {
+      "descUrl": "https://baozhang.jd.com/static/serviceDesc",
+      "detailUrl": "https://b.jr.jd.com/service/serveIntroduce/#/introduce3?mainSkuId={mainSkuId}&brandId={brandId}&thirdCategoryId={cid3}&bindSkuId={bindSku}",
+      "serviceItems": []
+    },
+    "wareStockInfo": {
+      "is7ToReturn": false,
+      "is7shortService": "不可七天退货"
+    },
+    "warmTips": [
+      {
+        "imageUrl": "http://m.360buyimg.com/mobilecms/jfs/t2434/259/1243414205/2028/4180e2a5/5680f4a7Nd42f863e.png",
+        "text": "不支持7天无理由退货"
+      }
+    ]
+  },
+  "couponInfo": [],
+  "maxSales": {
+    "head": "https://m.360buyimg.com/umm/jfs/t1/194148/17/31268/6647/638f0ea0Eb1bf0631/92e62de5c19db31c.png"
+  },
+  "warrantyInfo": {
+    "descUrl": "https://baozhang.jd.com/static/serviceDesc",
+    "detailUrl": "https://b.jr.jd.com/service/serveIntroduce/#/introduce3?mainSkuId={mainSkuId}&brandId={brandId}&thirdCategoryId={cid3}&bindSkuId={bindSku}",
+    "serviceItems": []
+  },
+  "giftShoppingInfo": {
+    "gaoduanGift": false,
+    "hasGift": false,
+    "huodongGift": false
+  },
+  "benefit": {
+    "stage": 2,
+    "start": 1671984000,
+    "end": 1673798399,
+    "url": "https://img10.360buyimg.com/umm/jfs/t1/44510/27/22831/6897/6392f6b4E71195a09/e0f5569e372bc063.png",
+    "allnum": "10001740"
+  },
+  "jdddFlag": false,
+  "isSamMember": false,
+  "actions": {},
+  "warmTips": [
+    {
+      "imageUrl": "http://m.360buyimg.com/mobilecms/jfs/t2434/259/1243414205/2028/4180e2a5/5680f4a7Nd42f863e.png",
+      "text": "不支持7天无理由退货"
+    }
+  ],
+  "weightInfo": {
+    "content": "1.12kg",
+    "title": "重量"
+  },
+  "adText": "约满即止，仅限京东实名认证用户APP端抢购，1月2日10:00开始预约，1月2日12:00开始抢购",
+  "disableCoupon": {
+    "iconServiceType": 0,
+    "jichu": false,
+    "name": "不可使用京券东券",
+    "tip": "此商品不可使用京券、东券"
+  },
+  "wareInfo": {
+    "allnum": "10001740",
+    "book": "false",
+    "brandId": "12310",
+    "brandName": "茅台",
+    "cBrand": "茅台",
+    "category": "12259;12260;9435",
+    "color": "飞天 53%vol 500ml 贵州茅台酒",
+    "colorSequence": "1",
+    "erpPid": "100012043978",
+    "extend": {
+      "canUseDQ": false,
+      "canUseJQ": false,
+      "customize": "0",
+      "dcms": "0",
+      "dpg": "0",
+      "fdms": 0,
+      "features": {
+        "YuShou": "1",
+        "isYjyChannelPool": "1",
+        "IsJX": "1",
+        "isrc": "1",
+        "taxCode": "1030302000000000000"
+      },
+      "fhdw": "2",
+      "fxg": "0",
+      "giftsGoods": "0",
+      "is7ToReturn": "0",
+      "isCanUseDQ": false,
+      "isCanUseJQ": false,
+      "isJDMarket": "1",
+      "isJIT": "0",
+      "isJx": "1",
+      "isKO": "0",
+      "isLqkt": "0",
+      "isMaxNum": "2",
+      "isNewGoods": "1",
+      "isOTCCat": "0",
+      "isOverseaPurchase": "0",
+      "isPrescriptCat": "0",
+      "isWeChatStock": "0",
+      "isdangergoods": "0",
+      "itemId": "-1",
+      "jdzs": "1",
+      "jzfp": false,
+      "mspd": "0",
+      "packType": "4",
+      "pbjc": "1",
+      "platform": "1",
+      "productFeatures": {},
+      "schf": "0",
+      "sendService": "0",
+      "sfkc": "0",
+      "soldOversea": "0",
+      "spuId": "0",
+      "stockOwner": "",
+      "storeProperty": "0",
+      "tax": "consumptionVAT:0,inputVAT:13,outputVAT:13,taxCode:1030302000000000000",
+      "thwa": "0",
+      "tsfw": "0",
+      "tssp": 0,
+      "wjtyd": "1",
+      "yhzy": "1",
+      "yuShou": "1"
+    },
+    "hasOverallViewAnchor": false,
+    "height": "90",
+    "imageurl": "jfs/t1/204850/31/20522/123067/61af3d74E747493f0/385d705a66b5263b.jpg",
+    "isDelete": "1",
+    "isJDexpress": false,
+    "length": "240",
+    "model": "白酒",
+    "nirvana": {
+      "maxSaleLabel": 10001740,
+      "maxSalesInfo": {
+        "head": "https://m.360buyimg.com/umm/jfs/t1/194148/17/31268/6647/638f0ea0Eb1bf0631/92e62de5c19db31c.png"
+      }
+    },
+    "phone": "",
+    "platform": "1",
+    "productArea": "贵州仁怀",
+    "saleDate": "2022-01-10 12:02:35",
+    "salesAttr": "",
+    "sellPoint": "荣耀传承|国货匠心",
+    "shangJia": "tyyj",
+    "shopId": "1000085463",
+    "showQJImg": false,
+    "site": "",
+    "size": "",
+    "sizeSequence": "0",
+    "skuMark": "8192",
+    "spec": "",
+    "specName": "",
+    "specSequence": "0",
+    "state": "1",
+    "taxInfo": "consumptionVAT:0,inputVAT:13,outputVAT:13,taxCode:1030302000000000000",
+    "timelinessId": "",
+    "upc": "100012043978;6902952880294",
+    "valuePayFirst": "1",
+    "venderColType": "0",
+    "venderId": "1000085463",
+    "wareId": "100012043978",
+    "wareType": 0,
+    "weight": "1.120",
+    "width": "90",
+    "wname": "飞天 53%vol  500ml 贵州茅台酒（带杯）",
+    "wserve": "无质保"
+  },
+  "hasFinanceCoupon": false,
+  "stockInfo": {
+    "deliveryInfo": {
+      "state": "SUPPORT",
+      "support": true
+    },
+    "isPlus": false,
+    "code": 1,
+    "promiseInfo": {
+      "cOD": false,
+      "exchange": false,
+      "featureService": false,
+      "gSDa": false,
+      "has211": false,
+      "iconCodeList": [
+        "service_noreturn",
+        "service_yysh",
+        "service_bfsh",
+        "service_sssm",
+        "free_delivery_zhong",
+        "service_jdwl",
+        "service_pzsy",
+        "special_ziti"
+      ],
+      "iconInfoList": [
+        {
+          "code": "service_yysh",
+          "helpLink": "//help.jd.com/user/issue/103-983.html",
+          "iconServiceType": 6,
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/116316/15/7402/1031/5ec22ca4E713f857c/dd49784b20933cf5.png",
+          "jichu": false,
+          "name": "预约送货",
+          "tip": "京东物流为该商品提供预约送货服务"
+        },
+        {
+          "code": "service_bfsh",
+          "helpLink": "https://help.jd.com/user/issue/103-983.html",
+          "iconServiceType": 6,
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/108073/34/18517/1071/5ec22ce0E11a3b1c5/f8ffea5f4cafa0f9.png",
+          "jichu": false,
+          "name": "部分收货",
+          "tip": "如果收件人收货时发现部分货物存在缺少配件、物流损等情形，京东物流提供订单半收服务"
+        },
+        {
+          "code": "service_sssm",
+          "helpLink": "https://help.jd.com/user/issue/254-4130.html",
+          "iconServiceType": 6,
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/115738/37/12143/1066/5f0c7d11E4faee520/de3879572e2b2014.png",
+          "jichu": false,
+          "name": "送货上门",
+          "tip": "京东快递为您提供送货上门服务"
+        },
+        {
+          "code": "free_delivery_zhong",
+          "helpLink": "//help.jd.com/user/issue/103-983.html",
+          "iconServiceType": 4,
+          "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/10/0C/rBEhWFMxH-oIAAAAAAAEs-McyP4AAKp8AP_4HYAAATL229.jpg",
+          "jichu": false,
+          "name": "99元免基础运费",
+          "tip": "所选地址自营订单满99元免基础运费(20kg内)，超出重量加收1元/kg续重运费。"
+        },
+        {
+          "code": "service_pzsy",
+          "helpLink": "https://zsgateway.jd.com/item/sku/1308704.html",
+          "iconServiceType": 3,
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/105005/12/14712/16360/5e69f608E17d7803b/20bad2985c2d6ea1.png",
+          "jichu": false,
+          "name": "品质溯源",
+          "tip": "京东严格管控生产、运输、仓储、监管等环节，可扫描商品包装二维码、或在订单中点击“品质溯源”查看信息",
+          "url": "https://sy.jd.com/item/sku/100012043978.html"
+        },
+        {
+          "code": "special_ziti",
+          "helpLink": "//help.jd.com/user/issue/103-983.html",
+          "iconServiceType": 5,
+          "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/01/02/rBEhWlLL0P8IAAAAAAAETM3054QAAHqzwGz1eAAAARk092.jpg",
+          "jichu": false,
+          "name": "自提",
+          "tip": "我们提供多种自提服务，包括京东自提点、自助提货柜、京东校园派、京东星配站、京东便民站等服务"
+        }
+      ],
+      "promise": "3天内调货完成，预计<b>01月04日</b>送达",
+      "relaxType": 0,
+      "resultCode": 1,
+      "selfTrustworthy": false,
+      "trustworthy": false,
+      "weight": "1.12kg",
+      "weightFareTitle": "99元免基础运费",
+      "yejianpei": false
+    },
+    "promiseResult": "",
+    "serviceInfo": "由 <span class='hl_red'>京东</span> 发货, 并提供售后服务. ",
+    "stockDesc": "<strong>有货</strong>",
+    "weightValue": "1.12kg",
+    "fxgCode": "0",
+    "is7ToReturn": "不支持7天无理由退货",
+    "stockState": 39,
+    "stockInfo": {
+      "ae": 0,
+      "ah": -1,
+      "availableNum": -1,
+      "businessType": -1,
+      "ca": -1,
+      "date": "",
+      "dcId": 6,
+      "dcIdDely": 6,
+      "ef": 0,
+      "eh": -1,
+      "ej": "-1",
+      "ek": -1,
+      "freshEdi": 0,
+      "popPatType": 1,
+      "preStore": -1,
+      "railModel": 0,
+      "reservationType": "OTHER",
+      "rid": 0,
+      "sidDely": 331,
+      "siteId4Dada": -1,
+      "stDely": 0,
+      "stockM": 0,
+      "stockState": "ON_PASSAGE",
+      "stockV": 0,
+      "storeId": 331,
+      "storeId4Dada": -1,
+      "storeState4Dada": -1,
+      "storeType": 0,
+      "useStockNum": -5593
+    },
+    "serverIcon": {
+      "relaxType": 0,
+      "wlfwIcons": [
+        {
+          "code": "service_yysh",
+          "helpLink": "//help.jd.com/user/issue/103-983.html",
+          "iconServiceType": 6,
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/116316/15/7402/1031/5ec22ca4E713f857c/dd49784b20933cf5.png",
+          "jichu": false,
+          "show": true,
+          "sortId": 0,
+          "text": "预约送货",
+          "tip": "京东物流为该商品提供预约送货服务"
+        },
+        {
+          "code": "service_bfsh",
+          "helpLink": "https://help.jd.com/user/issue/103-983.html",
+          "iconServiceType": 6,
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/108073/34/18517/1071/5ec22ce0E11a3b1c5/f8ffea5f4cafa0f9.png",
+          "jichu": false,
+          "show": true,
+          "sortId": 0,
+          "text": "部分收货",
+          "tip": "如果收件人收货时发现部分货物存在缺少配件、物流损等情形，京东物流提供订单半收服务"
+        },
+        {
+          "code": "service_sssm",
+          "helpLink": "https://help.jd.com/user/issue/254-4130.html",
+          "iconServiceType": 6,
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/115738/37/12143/1066/5f0c7d11E4faee520/de3879572e2b2014.png",
+          "jichu": false,
+          "show": true,
+          "sortId": 0,
+          "text": "送货上门",
+          "tip": "京东快递为您提供送货上门服务"
+        },
+        {
+          "code": "special_ziti",
+          "helpLink": "//help.jd.com/user/issue/103-983.html",
+          "iconServiceType": 5,
+          "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/01/02/rBEhWlLL0P8IAAAAAAAETM3054QAAHqzwGz1eAAAARk092.jpg",
+          "jichu": false,
+          "show": true,
+          "sortId": 0,
+          "text": "自提",
+          "tip": "我们提供多种自提服务，包括京东自提点、自助提货柜、京东校园派、京东星配站、京东便民站等服务"
+        }
+      ],
+      "basicIcons": [
+        {
+          "code": "free_delivery_zhong",
+          "helpLink": "//help.jd.com/user/issue/103-983.html",
+          "iconType": "right",
+          "imageUrl": "http://img30.360buyimg.com/mobilecms/g15/M0A/10/0C/rBEhWFMxH-oIAAAAAAAEs-McyP4AAKp8AP_4HYAAATL229.jpg",
+          "jdPostAndService": false,
+          "jichu": false,
+          "show": true,
+          "sortId": 7,
+          "text": "99元免基础运费",
+          "tip": "所选地址自营订单满99元免基础运费(20kg内)，超出重量加收1元/kg续重运费。"
+        },
+        {
+          "code": "service_pzsy",
+          "helpLink": "https://zsgateway.jd.com/item/sku/1308704.html",
+          "iconType": "right",
+          "imageUrl": "https://m.360buyimg.com/babel/jfs/t1/105005/12/14712/16360/5e69f608E17d7803b/20bad2985c2d6ea1.png",
+          "jdPostAndService": false,
+          "jichu": false,
+          "jumpUrl": "https://sy.jd.com/item/sku/100012043978.html",
+          "show": true,
+          "sortId": 7,
+          "text": "品质溯源",
+          "tip": "京东严格管控生产、运输、仓储、监管等环节，可扫描商品包装二维码、或在订单中点击“品质溯源”查看信息"
+        }
+      ]
+    },
+    "support": [],
+    "isStock": true
+  },
+  "userInfoMap": {
+    "flagInfoByPin": "1000000000000000103000000000010900000000000000005100001007000000000000000000000000000000000000000000",
+    "idAuthThrough": false,
+    "jingXiangScore": 3271,
+    "plusMember": "3",
+    "samMember": false,
+    "unJdUserFlag": false
+  },
+  "waistBandActiveBo": {
+    "actionName": "年货节",
+    "activeExtendInfo": {
+      "1": "https://img10.360buyimg.com/umm/jfs/t1/70309/20/23239/33280/6392f6b0E8a87b616/d16335205b19145f.png",
+      "2": "https://img10.360buyimg.com/umm/jfs/t1/44510/27/22831/6897/6392f6b4E71195a09/e0f5569e372bc063.png",
+      "3": "https://img10.360buyimg.com/umm/jfs/t1/134108/30/28457/15174/6392f6bcEa7d57a49/e356612bea10c0a8.png",
+      "flowId": "8"
+    },
+    "benefit": 3,
+    "benefitId": "10001740",
+    "endDate": "2023-01-15 23:59:59",
+    "forecastDate": "2022-12-26 00:00:00",
+    "startDate": "2022-12-26 00:00:00",
+    "url": "https://img10.360buyimg.com/umm/jfs/t1/149933/19/19479/137/5fe1ac00Eb244b274/5af462731fb942da.png,https://img10.360buyimg.com/umm/jfs/t1/149933/19/19479/137/5fe1ac00Eb244b274/5af462731fb942da.png,https://img10.360buyimg.com/umm/jfs/t1/138145/1/19548/145/5fe1acfeEcc67f361/480f9948b2e70c23.png,https://img10.360buyimg.com/umm/jfs/t1/150391/7/12266/144/5fe1ad0eE898bfefd/69bfc6346fed34cb.png,https://img10.360buyimg.com/umm/jfs/t1/147719/2/19459/139/5fe1ad20E9274d0b5/88d72803c9690844.png,https://img10.360buyimg.com/umm/jfs/t1/143978/13/19646/143/5fe1ad32Ec152dfd3/718f8799dc036802.png,https://img10.360buyimg.com/umm/jfs/t1/142518/11/19479/147/5fe1ad3fE4f898bfb/08d1cccc7013b379.png,https://img10.360buyimg.com/umm/jfs/t1/154819/1/10994/145/5fe1ad4fEafae5c80/eb502e6eb4ad2229.png"
+  },
+  "isPlusMember": "3",
+  "wozheFlag": false,
+  "isJdkd": false,
+  "isJdwl": true,
+  "promotion": {
+    "activity": [],
+    "attach": [],
+    "canReturnHaggleInfo": false,
+    "customtag": {},
+    "gift": [],
+    "giftTips": "",
+    "isBargain": false,
+    "isTwoLine": false,
+    "limitBuyInfo": {
+      "limitNum": "0",
+      "noSaleFlag": "0",
+      "resultExt": {
+        "limitText": "最多可购买2件",
+        "isPlusLimit": "0",
+        "beginTime": "2022-10-16 11:57:00",
+        "endTime": "2023-10-16 00:00:00"
+      }
+    },
+    "normalMark": "tab_var_126",
+    "plusMark": "tab_var_126",
+    "prompt": "此商品不可使用京券、东券",
+    "screenLiPurMap": {},
+    "tip": "",
+    "tips": [],
+    "upgradePurchaseMap": {}
+  }
+}

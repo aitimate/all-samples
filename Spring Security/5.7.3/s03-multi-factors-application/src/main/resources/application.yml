@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.10.199:3306/samples?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: Ms^9^0%4$1

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package person;
+
+option go_package="pb/person;person";
+
+message PersonReq {
+  string msg = 1;
+}
+message PersonRes {
+  string msg = 1;
+}
+
+service PersonService {
+  rpc Test(PersonReq) returns(PersonRes);
+  rpc TestStreamClient(stream PersonReq) returns(PersonRes);
+  rpc TestStreamServer(PersonReq) returns(stream PersonRes);
+  rpc TestStreamIO(stream PersonReq) returns(stream PersonRes);
+}

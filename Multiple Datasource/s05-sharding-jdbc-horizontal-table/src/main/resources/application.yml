@@ -1,0 +1,39 @@
+ds-properties: allowMultiQueries=true&useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&nullCatalogMeansCurrent=true
+spring:
+  shardingsphere:
+    props: # https://shardingsphere.apache.org/document/5.1.0/cn/user-manual/shardingsphere-jdbc/props/
+      # 开启控制台打印sql
+      sql-show: true
+    mode:
+      type: Standalone
+    datasource:
+      names: h_tb
+      h_tb:
+        type: com.zaxxer.hikari.HikariDataSource # 使用 Hikari 数据库连接池
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/h_tb?${ds-properties}
+        username: clusteradmin
+        password: admin
+    rules:
+      sharding:
+        # 水平分表
+        tables:
+          # 多部分子表 -> 共同合成 完整表(逻辑表)
+          t_order: # 表映射: t_order->[t_order0,t_order1]
+            actual-data-nodes: h_tb.t_order$->{0..1}
+            table-strategy: # 分表策略
+              standard:
+                sharding-column: user_id  # 指定用于分库的表字段(列)
+                sharding-algorithm-name: alg_htb_inline # 指定分库算法
+        # 定义分库算法
+        # https://shardingsphere.apache.org/document/5.1.0/cn/user-manual/shardingsphere-jdbc/builtin-algorithm/sharding/
+        # 如下两种算法等价:
+        sharding-algorithms:
+          alg_htb_inline:
+            type: INLINE # 2取模(行表达式)
+            props:
+              algorithm-expression: t_order$->{user_id % 2}
+          alg_mod:
+            type: MOD # 2取模
+            props:
+              sharding-count: 2
